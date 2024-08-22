@@ -22,3 +22,6 @@ Note: Although this solves the issue, it's generally recommended to use virtual 
 
 Reference:
 The solution was inspired by a discussion on Stack Overflow: https://stackoverflow.com/questions/59572174/no-module-named-dotenv-python-3-8
+
+# Next Step
+now we are ready to download our data set. Here we use the data from Chicago Data Portal. the dataset is the [Crimes - 2001 to Present] (https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data)
