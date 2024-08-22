@@ -1,4 +1,4 @@
-** Learning PySpark
+#Learning PySpark
 # Project Documentation
 I will be documenting issues that i faced in every step and how i resolved them so if anyone else look at this repo hopefully they would not spend some time banging their head ;)
 ## Issue: Importing `dotenv` in Virtual Environment
