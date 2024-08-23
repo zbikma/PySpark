@@ -2,3 +2,4 @@ myenv/
 .DS_Store
 .env
 .csv
+crimes_2001_to_present.csv
