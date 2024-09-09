@@ -32,7 +32,8 @@ data_path="SparkML/ETL/housing.csv"
 
 full_path = os.path.join(os.getcwd(),data_path)
 print("full path to csv:",full_path)
-print("does the file exist:",os.path.exists(full_path))
+if not os.path.exists(full_path):
+    raise FileNotFoundError(f"The file at {full_path} does not exist.")
 df = spark.read.csv(data_path,header=True,inferSchema= True)
 df.printSchema()
 
