@@ -1,3 +1,11 @@
 {
-    "python.languageServer": "Pylance"
+    "python.languageServer": [
+        "Pylance",
+        "JediLSP"
+    ],
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.pythonPath": "/Users/LearningUser/Documents/Repos/PySpark/myenv/bin/python",
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "/Users/LearningUser/Documents/Repos/PySpark"
+    }
 }
