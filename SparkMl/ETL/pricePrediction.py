@@ -20,9 +20,7 @@ def count_missing_values(df):
             expr = F.count(F.when(F.col(col_name).isNull(), col_name)).alias(col_name)
         exprs.append(expr)
 
-    # Compute the counts of missing values for each column
-    missing_counts_df = df.select(*exprs)
-    return missing_counts_df
+    return df.select(*exprs)
 
 spark = SparkSession.builder.appName("TextFileToDataFrame").getOrCreate()
 
