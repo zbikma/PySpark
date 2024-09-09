@@ -1,4 +1,4 @@
-from setup_pyspark import setup_pyspark
+from SparkMl.pysparkSetup import setup_pyspark
 from pyspark.ml.feature import MinMaxScaler
 from pyspark.ml.linalg import Vectors
 import numpy as np
